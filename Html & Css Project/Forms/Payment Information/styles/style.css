@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto+Slab:wght@200&display=swap');
+
+/* 
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-font-family: 'Righteous', sans-serif;
+    ;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+* {
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+}
+
+input {
+    padding: 0.8rem;
+    font-size: 18px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+input::placeholder {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.container {
+    margin-top: 1rem;
+    padding: 2rem;
+    width: fit-content;
+    border-radius: 40px;
+    background: rgba(106, 154, 210, 0.25);
+    backdrop-filter: blur(600px);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.4rem;
+}
+
+.main>.payinfo>h1 {
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cardImages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardImages>img {
+    width: 6rem;
+}
+
+.customerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.customerInfo>.inputOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.customerInfo>.inputOne>label {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customerInfo>.inputOne>input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #91BAD9;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.customerInfo>.inputtwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.customerInfo>.inputtwo>label {
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customerInfo>.inputtwo>input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #91BAD9;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.customerInfo>.inputthree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customerInfo>.inputthree>.expiry {
+    display: flex;
+    flex-direction: column;
+}
+
+.customerInfo>.inputthree>.expiry>label {
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customerInfo>.inputthree>.expiry>input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #91BAD9;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.customerInfo>.inputthree>.cvv {
+    display: flex;
+    flex-direction: column;
+}
+
+.customerInfo>.inputthree>.cvv>label {
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customerInfo>.inputthree>.cvv>input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #91BAD9;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.customerInfo>.inputfour {
+    display: flex;
+    flex-direction: column;
+}
+
+.customerInfo>.inputfour>label {
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customerInfo>.inputfour>select {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #91BAD9;
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-style: normal;
+    font-weight: 400;
+    height: fit-content;
+    padding: 1.3rem;
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.customerInfo>.inputfour>select>option {
+    padding: 0.8rem;
+    font-size: 16px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.checked {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.checked>span {
+    color: #1A1A1A;
+    font-family: Roboto Flex;
+    font-size: 13px;
+    font-style: normal;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.buttons {
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7BB2CA 14.47%, rgba(5, 32, 86, 0.70) 55.11%, #7BB2CA 99.91%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.buttons>button {
+    font-size: 18px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buttons>button:focus {
+    background: transparent;
+    outline: none;
+    border: none;
+}

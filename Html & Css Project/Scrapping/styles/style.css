@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto+Slab:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+/* Variables */
+:root {
+    --primary-font-family: 'Righteous', sans-serif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+* {
+    font-size: 14px;
+    list-style: none;
+}
+
+button {
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7BB2CA 14.47%, rgba(5, 32, 86, 0.70) 55.11%, #7BB2CA 99.91%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 18px;
+    color: #f5f8fa;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.body {
+    border-radius: 30px;
+    background: radial-gradient(181.69% 43.14% at 57.21% 54.87%, #000AFF 3.87%, rgba(8, 106, 106, 0.70) 51.35%, #086A6A 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.main{
+    background: rgba(147, 193, 212, 0.46);
+    padding: 3em;
+}
+
+.mainHeader {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.mainHeader>h1 {
+    color: #19176D;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.header>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    max-width: 17em;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 40em;
+    line-height: normal;
+}

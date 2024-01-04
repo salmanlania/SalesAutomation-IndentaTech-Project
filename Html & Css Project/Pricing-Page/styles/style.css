@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  background: rgba(147, 193, 212, 0.46);
+}
+/* Variables */
+:root {
+  --primary-font-family: 'Righteous', sans-serif;
+  --light-white: #f5f8fa;
+  --gray: #5e6278;
+  --gray-1: #e3e3e3;
+}
+* {
+  font-size: 14px;
+  list-style: none;
+}
+button:focus {
+  outline: none;
+}
+.container {
+  font-family: 'Poppins', sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.container .start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.container .start h1 {
+  max-width: 50%;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+}
+.container .start p {
+  max-width: 57%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.container .buttons {
+  display: flex;
+  justify-content: center;
+}
+.container .buttons button {
+  border-radius: 30px;
+  border: none;
+  background: #9AB7D3;
+  color: #000;
+  font-family: 'Poppins', sans-serif !important;
+  font-style: normal;
+  width: 100px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.pricing {
+  display: flex;
+  align-items: center;
+}
+/* Price One */
+/* Your existing styles.css content goes here */
+.pricingOne {
+    height: fit-content;
+    color: #fff !important;
+    width: fit-content;
+    padding: 4rem;
+    border-radius: 0px 300px 0px 0px;
+    background: #3F6E99;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .pricingOneHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .pricingOneImages img {
+    text-align: center;
+    width: 7rem;
+  }
+  .pricingOneHeadings > h1 {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+  .pricingOneHeadings .pricingOneSubHeadings {
+    display: flex;
+    gap: 0.6rem;
+  }
+  .pricingOneHeadings .pricingOneSubHeadings > h1 {
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .pricingOneList {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .pricingOneList > .pricingOneListSvg {
+    float: right;
+  }
+  .btns {
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7BB2CA 14.47%, rgba(5, 32, 86, 0.7) 55.11%, #7BB2CA 99.91%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+  .btns button {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+  }
+  
+/* Price Two */
+.pricingTwo {
+  height: fit-content;
+  color: #fff !important;
+  width: fit-content;
+  padding: 4rem;
+  border-radius: 300px;
+  background: rgba(147, 193, 212, 0.5) !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.pricingTwoHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.pricingTwoImages img {
+  text-align: center;
+  width: 7rem;
+}
+.pricingTwoHeadings > h1 {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+  color: #19176D;
+  text-decoration-line: underline;
+}
+.pricingTwoHeadings .pricingTwoSubHeadings {
+  display: flex;
+  gap: 0.6rem;
+}
+.pricingTwoHeadings .pricingTwoSubHeadings > h1 {
+  color: #19176D;
+  font-family: Roboto Slab;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pricingTwoHeadings .pricingTwoSubHeadings > p {
+  color: #19176D;
+  font-weight: 300;
+}
+.pricingTwoList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 3rem;
+  font-weight: 300;
+  color: #000;
+}
+.pricingTwoList > .pricingTwoListSvg {
+  float: right;
+}
+.btns {
+  border-radius: 20px;
+  background: linear-gradient(90deg, #7BB2CA 14.47%, rgba(5, 32, 86, 0.7) 55.11%, #7BB2CA 99.91%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+.btns button {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+}
+/* Pricing Three */
+.pricingThree {
+  height: fit-content;
+  color: #fff !important;
+  width: fit-content;
+  padding: 4rem;
+  border-radius: 300px 0px 0px 0px;
+  background: #6694B4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.pricingThreeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.pricingThreeImages img {
+  text-align: center;
+  width: 7rem;
+}
+.pricingThreeHeadings > h1 {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+  color: #fff;
+  text-decoration-line: underline;
+}
+.pricingThreeHeadings .pricingThreeSubHeadings {
+  display: flex;
+  gap: 0.6rem;
+}
+.pricingThreeHeadings .pricingThreeSubHeadings > h1 {
+  color: #fff;
+  font-family: Roboto Slab;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.pricingThreeHeadings .pricingThreeSubHeadings > p {
+  color: #fff;
+  font-weight: 300;
+}
+.pricingThreeList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+.pricingThreeList > .pricingThreeListSvg {
+  float: right;
+}
+.btns {
+  border-radius: 20px;
+  background: linear-gradient(90deg, #7BB2CA 14.47%, rgba(5, 32, 86, 0.7) 55.11%, #7BB2CA 99.91%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.btns button {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+}
+/* Media Query  */
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 1rem;
+  }
+  .container .start h1 {
+    max-width: 100%;
+    font-size: 24px;
+  }
+  .container .start p {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .container .buttons {
+    flex-direction: column;
+  }
+  .container .buttons button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .pricing {
+    flex-direction: column;
+  }
+  .pricingOne, .pricingTwo, .pricingThree {
+    padding: 2rem;
+  }
+  .pricingOneHeadings > h1, .pricingTwoHeadings > h1, .pricingThreeHeadings > h1 {
+    font-size: 24px;
+  }
+  .pricingOneSubHeadings > h1, .pricingTwoSubHeadings > h1, .pricingThreeSubHeadings > h1 {
+    font-size: 20px;
+  }
+  .pricingOneList, .pricingTwoList, .pricingThreeList {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .btns {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto+Slab:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+/* Variables */
+:root {
+    --primary-font-family: 'Righteous', sans-serif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+* {
+    font-size: 14px;
+    list-style: none;
+}
+
+button {
+    border-radius: 20px;
+    background: linear-gradient(90deg, #7BB2CA 14.47%, rgba(5, 32, 86, 0.70) 55.11%, #7BB2CA 99.91%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-size: 18px;
+    color: #f5f8fa;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.container {
+    background: rgba(147, 193, 212, 0.46);
+}
+
+.heading>h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #19176D;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main {
+    width: fit-content;
+    border-radius: 30px;
+    background: radial-gradient(181.69% 43.14% at 57.21% 54.87%, #000AFF 3.87%, rgba(8, 106, 106, 0.70) 51.35%, #086A6A 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 5rem;
+    padding-bottom: 15em;
+    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.clientHeading {
+    padding-bottom: 3rem;
+}
+
+.clientHeading>h2 {
+    color: #f5f8fa;
+    max-width: 17em;
+}
+
+.automationCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.automationCard>img {
+    width: 25rem;
+}
+
+.automationCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.automationCards>img {
+    width: 25rem;
+}
+
+.firstDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstDetail>h3 {
+    font-size: 29px;
+    color: #fff;
+    max-width: 12em;
+}
+
+.firstDetail>p {
+    max-width: 26em;
+    font-size: 20px;
+    color: #fff;
+}
+
+.firstDetail>button {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+.secondDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondDetail>h3 {
+    font-size: 29px;
+    color: #fff;
+    max-width: 12em;
+}
+
+.secondDetail>p {
+    max-width: 26em;
+    font-size: 20px;
+    color: #fff;
+}
+
+.secondDetail>button {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
