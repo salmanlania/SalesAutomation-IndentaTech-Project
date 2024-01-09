@@ -1,78 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>form</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-	<div class="container">
-		<h2>Sign up</h2>
-		<p>Already an account? <span>Login</span></p>
-		<form action="#" method="post">
-			<div class="form-group">
-				<label for="Email1">Email</label>
-				<div class="icon-input">
-					<svg class="icon" width="20" height="20" viewBox="0 0 24 24">
-						<path fill="currentColor"
-							d="M22 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM2 6l10 7 10-7V8L12 15 2 8V6zm2 10v2h16v-2L12 13 4 16z" />
-					</svg>
-					<input type="email" class="form-control" aria-describedby="emailHelp" name="email">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="Email1">Username</label>
-				<div class="icon-input">
-					<svg class="icon" width="20" height="20" viewBox="0 0 24 24">
-						<path fill="currentColor"
-							d="M22 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM2 6l10 7 10-7V8L12 15 2 8V6zm2 10v2h16v-2L12 13 4 16z" />
-					</svg>
-					<input type="text" class="form-control" aria-describedby="emailHelp" name="email">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="Password">Password</label>
-				<div class="icon-input">
-					<svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
-						xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18C7.59 20 4 16.41 4 12S7.59 4 12 4s8 3.59 8 8-3.59 8-8 8zm1-11h-2V7h2v2zm0 4h-2v-2h2v2z"
-							fill="currentColor" />
-					</svg>
-					<input type="password" class="form-control" name="password">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="Password">Confirm Password</label>
-				<div class="icon-input">
-					<svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
-						xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18C7.59 20 4 16.41 4 12S7.59 4 12 4s8 3.59 8 8-3.59 8-8 8zm1-11h-2V7h2v2zm0 4h-2v-2h2v2z"
-							fill="currentColor" />
-					</svg>
-					<input type="password" class="form-control" name="password">
-				</div>
-			</div>
-			<div class="one-line mb-2">
-				<div class="checkbox">
-					<label style="display: flex; align-items: center; gap: 2px;">
-						<input type="checkbox" checked="checked" value="remember-me"> <span>I want to receive news, trends, offers, or blogs by email.</span>
-					</label>
-				</div>
-			</div>
-			<div class="form-groups" >
-				<span style="font-size: 15px;">By creating an account, you agree to our Terms and have read and 
-					acknowledge the Global Privacy Statement.</span>
-			</div>
-			<div class="form-group" >
-				<button type="submit" class="buttons" name="create">Signup</button>
-			</div>
-		</form>
-	</div>
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<Navber>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- <h -->
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<Closed Navbar>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <section class="signUpmain">
+        <div class="signUpcontainer">
+            <h2>Sign up</h2>
+            <p>Already an account? <a style="text-decoration: underline;cursor: pointer;color: black;" target="_blank"
+                    href="../Login/index.html">Login</a></p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <div class="icon-input">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M22 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM2 6l10 7 10-7V8L12 15 2 8V6zm2 10v2h16v-2L12 13 4 16z" />
+                        </svg>
+                        <input type="email" class="form-control" aria-describedby="emailHelp" name="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Email1">Username</label>
+                    <div class="icon-input">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M22 4H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM2 6l10 7 10-7V8L12 15 2 8V6zm2 10v2h16v-2L12 13 4 16z" />
+                        </svg>
+                        <input type="text" class="form-control" aria-describedby="emailHelp" name="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <div class="icon-input">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18C7.59 20 4 16.41 4 12S7.59 4 12 4s8 3.59 8 8-3.59 8-8 8zm1-11h-2V7h2v2zm0 4h-2v-2h2v2z"
+                                fill="currentColor" />
+                        </svg>
+                        <input type="password" class="form-control" name="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Password">Confirm Password</label>
+                    <div class="icon-input">
+                        <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18C7.59 20 4 16.41 4 12S7.59 4 12 4s8 3.59 8 8-3.59 8-8 8zm1-11h-2V7h2v2zm0 4h-2v-2h2v2z"
+                                fill="currentColor" />
+                        </svg>
+                        <input type="password" class="form-control" name="password">
+                    </div>
+                </div>
+                <div class="one-line mb-2">
+                    <div class="checkbox">
+                        <label style="display: flex; align-items: center; gap: 2px;">
+                            <input type="checkbox" value="remember-me" style="cursor: pointer;"> <span>I want to receive
+                                news,
+                                trends, offers, or blogs by email.</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-groups">
+                    <span style="font-size: 15px;">By creating an account, you agree to our Terms and have read and
+                        acknowledge the Global Privacy Statement.</span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="buttons" name="create">Signup</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">

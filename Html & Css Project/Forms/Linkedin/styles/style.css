@@ -36,7 +36,8 @@
 .container {
     margin: 3%;
     border-radius: 30px;
-    background: rgba(25, 23, 109, 0.6);
+    background: rgba(106, 154, 210, 0.25);
+    backdrop-filter: blur(1200px);
     /* Apply opacity to the background color only */
     width: max-content;
     display: flex;

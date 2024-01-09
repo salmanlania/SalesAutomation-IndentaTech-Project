@@ -49,9 +49,10 @@ body {
         font-weight: 300;
         line-height: 100%;
 
-        span {
+        a {
             background: #FFF !important;
             text-decoration-line: underline;
+            cursor: pointer;
         }
     }
 }
